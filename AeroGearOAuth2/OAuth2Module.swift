@@ -50,7 +50,7 @@ open class OAuth2Module: AuthzModule {
      :param: completionHandler A block object to be executed when the request operation finishes.
      */
 
-    let config: Config
+    public let config: Config
     open var http: Http
     open var oauth2Session: OAuth2Session
     var applicationLaunchNotificationObserver: NSObjectProtocol?
